@@ -1,0 +1,239 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin:  0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ebe8e8;
+}
+hr {
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+}
+
+#navbar {
+    width: 100%;
+    height: 50px;
+    top: 0;
+    position: fixed;
+    background-color: #ffff;
+    z-index: 2;
+    
+
+}
+
+
+#nav-left {
+    margin: 0px 16px;
+    padding-left: 10px;
+    float: left;
+}
+
+#nav-center {
+    margin: 0 10px 0px 15px;
+    padding: 17px 0px 6px 0;
+
+}
+
+.nav-center-img {
+    margin: 8px 35px;
+    padding-left: 11px;
+    padding-right: 11px;
+
+}
+
+#nav-right {
+    float: right;
+    text-align: center;
+}
+
+.nav-right-img {
+    margin-left: 8 px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+img:hover {
+    background-color: rgb(99, 134, 248);
+    cursor: pointer;
+}
+#person {
+    margin-top:5px;
+}
+#person :hover {
+    background-color: rgb(219, 214, 214);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/********************************************left-sidenav************************************************************************************/
+#left-sidenav {
+    height: 110%;
+    width: 25%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #f1f1f1;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-top: 15px;
+    margin-top: 50px;
+    text-decoration:none;
+}
+
+#left-sidenav a {
+    padding: 10px 8px 6px 16px;
+    margin-left: 5px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    font-size: 15px;
+}
+
+#left-sidenav a img {
+    border-radius: 20px;
+}
+
+#left-sidenav a:hover {
+    background-color: #b9b9b9;
+    cursor: pointer;
+}
+
+/********************************************right-sidenav************************************************************************************/
+#right-sidenav {
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #f1f1f1;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-top: 15px;
+    margin-top: 50px;
+}
+
+#right-sidenav a {
+    padding: 10px 8px 6px 16px;
+    margin-left: 5px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    font-size: 15px;
+}
+
+#right-sidenav a img {
+    border-radius: 20px;
+}
+
+#right-sidenav a:hover {
+    background-color: #b9b9b9;
+    cursor: pointer;
+}
+
+/* /////////////////////////////////////////////////timeline/////////////////////////////////////// */
+#stories {
+    margin-left: 27%;
+    width: 45%;
+    padding: 0px 10px;
+}
+
+
+#stories img {
+    border-radius: 8px;
+    float: left;
+    margin-left: 5%;
+    margin-top: 12%;
+
+}
+
+#post-creat {
+    display: inline-block;
+    width: 35%;
+    margin-left: 32%;
+    margin-top: 3%;
+    padding-top: 1%;
+    padding-left: 2%;
+    background-color: white;
+    border-radius: 8px;
+}
+
+button {
+    border-color: white;
+    border-radius: 8px;
+    border: none;
+    box-sizing: border-box;
+    width: 30%;
+    height: 20%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    padding: 2% 1%;
+    font-size: 11pt;
+}
+
+button:hover {
+    background-color: rgb(190, 185, 185);
+    cursor: pointer;
+}
+
+#room {
+    display: inline-block;
+    width: 35%;
+    margin-left: 32%;
+    margin-top: 3%;
+    padding-top: 1%;
+    padding-left: 2%;
+    background-color: white;
+    border-radius: 8px;
+}
+
+#room img{
+    margin-left: 4%;
+    border-radius: 20px;
+}
+
+#room button{
+    margin-bottom: 2%;
+}
+
+.post { 
+        display: inline-block;
+        width: 35%;
+        margin-left: 32%;
+        margin-top: 3%;
+        padding-top: 1%;
+        padding-right: 2%;
+        padding-left: 2%;
+        background-color: white;
+        border-radius: 8px; 
+        text-align: inherit;    
+}
+
+.post img {
+    border-radius: 8px;
+}
+
+#nav-left input{
+    border-radius: 20px;
+    border-style: none;
+     width: 250px;
+    padding: 12px 25px;
+    margin: 0px 5px;
+     background-color: rgb(233, 231, 231); 
+}
+
+#person h3{
+    display: inline-block;
+    font-weight: bold;
+    color: black;
+    margin-top: 0% ;
+    padding-top: 0%;
+}
+
